@@ -12,7 +12,7 @@ function Signin() {
   async function submitHandler(e) {
     e.preventDefault();
     await axios
-      .post("http://localhost:8000/sign-up", {
+      .post("https://netflix-clone-api-jrzp.onrender.com/sign-up", {
         email,
         password,
       })

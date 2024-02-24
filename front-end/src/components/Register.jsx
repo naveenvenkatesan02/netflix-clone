@@ -15,7 +15,7 @@ function Register() {
     e.preventDefault();
 
     await axios
-      .post("http://localhost:8000/register", {
+      .post("https://netflix-clone-api-jrzp.onrender.com/register", {
         name,
         email,
         phone,
