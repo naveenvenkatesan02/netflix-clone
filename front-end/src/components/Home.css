@@ -1,0 +1,9 @@
+
+.container{
+    height: 100vh;
+    background-image: url(./Assests/bg-img.jpg);
+    background-attachment: fixed;
+    background-size: cover
+}
+
+

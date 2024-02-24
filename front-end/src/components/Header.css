@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.sign-in button{
+    background-color: #C11119;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    font-size: medium;
+}
+.sign-in button:hover{
+    cursor: pointer;
+}

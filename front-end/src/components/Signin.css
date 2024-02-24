@@ -1,0 +1,68 @@
+
+.container{
+    height: 100vh;
+    background-image: url(./Assests/bg-img.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover
+}
+.form{
+    text-align: center;
+}
+.form-main{
+    background-color: rgba(0, 0, 0, 0.263);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(7px); 
+    margin-left: 40%;
+    width: 400px;
+    height: 400px ;
+}
+h1{
+    color: white;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.form-main input{
+    padding: 15px;
+    width: 300px;
+}
+.form-main input{
+    background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); 
+  font-size: medium;
+  border-radius: 4px;
+}
+.form-main input::placeholder{
+    color: whitesmoke;
+    font-size: medium
+}
+.email{
+    margin-bottom: 10px;
+}
+.password{
+    margin-bottom: 10px;
+}
+.signin-btn{
+    padding: 10px;
+    background-color: #C11119;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    width: 335px;
+    margin-bottom: 10px;
+}
+.signin-btn:hover{
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    color: #dddddd;
+}
+
+
